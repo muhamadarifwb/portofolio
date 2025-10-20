@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <!-- Link -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar section-content">
+      <a href="" class="nav-logo">
+        <h2 class="logo-text">
+          😄It's Me
+        </h2>
+        <ul class="nav-menu">
+          <button id="menu-close-button" class="fas fa-times"></button>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#About" class="nav-link">
+              About Me
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#portfolio" class="nav-link">
+              Portfolio
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#galerry" class="nav-link">
+              Gallery
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">
+              Contact Me
+            </a>
+          </li>
+        </ul>
+        <button id="menu-open-button" class="fas fa-bars"></button>
+      </a>
+    </nav>
+  </header>
+  
+  <main>
+    <!--Hero Section-->
+    <section class="hero-section" id="#">
+      <div class="section-content">
+        <div class="hero-detail">
+          <h2 class="title">Muhamad Arif Wibowo</h2>
+          <h3 class="subtitle">Error? Nggak masalah!
+            Karena aku siap debug hatimu~ 💻❤️</h3>
+          <p class="Description">
+            Aku Arif, si developer cinta yang kodenya cuma buat kamu~!”
+          </p>
+          <div class="buttons">
+            <a href="https://www.linkedin.com/in/muharifwb" target="_blank" class="button linkedin-btn">Linkedin</a>
+            <a href="https://www.Instagram.com/muh_arifwb" target="_blank" class="button Instagram-btn">Instagram</a>
+          </div>
+        </div>
+        <div class="hero-image-wrapper">
+          <img src="Asset/Img/TIGER.png" alt="tiger" class="hero-image">
+        </div>
+      </div>
+    </section>
+    
+    <!--About Section-->
+    <section class="about-section" id="About">
+      <div class="section-content">
+        <div class="about-image-wrapper">
+          <img src="Asset/img/About-img.jpg" alt="about" class="about-image">
+        </div>
+        <div class="about-detail">
+          <h2 class="section-title">About Me</h2>
+          <p class="text">Lulusan S1 Teknologi Informasi dengan pengalaman sebagai IT Admin dan Web
+Developer. Terbiasa menangani troubleshooting hardware maupun software, pemeliharaan
+jaringan, serta administrasi sistem. Memiliki kemampuan analisis, komunikasi, dan problem
+solving yang baik untuk mendukung kelancaran operasional IT. Siap berkontribusi sebagai
+IT Support dengan pelayanan responsif, cepat beradaptasi, dan bertanggung jawab.</p>
+          <div class="social-link-list">
+            <a href="https://www.linkedin.com/in/muharifwb" class="social-link"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.tiktok.com/@muharifwb" class="social-link"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://www.Instagram.com/muh_arifwb" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!--Portofolio Section-->
+    <section class="porto-section" id="portfolio">
+      <h2 class="section-title">Portfolio</h2>
+      <div class="section-content">
+          <ul class="porto-list">
+            <li class="porto-item">
+              <img src="Asset/img/portfolio/Ryunco-Ecommerce.png" alt="Porto1" class="porto-img">
+              <h3 class="name">Ryunco Ecommerce</h3>
+              <p class="text">Ryunco Ecommerce adalah aplikasi platform e-commerce yang dibangun menggunakan CodeIgniter 3.<span class="dots" id="dots1">......</span><span class="more-text" id="more1" style="display: none;"> Aplikasi ini dirancang untuk menyediakan pengalaman belanja online yang mudah dan efisien. Dengan tampilan yang responsif dan fitur lengkap seperti katalog produk, keranjang belanja, sistem pembayaran, dan manajemen pesanan, Ryunco Ecommerce bertujuan untuk memudahkan pengguna dalam melakukan transaksi online. Aplikasi ini juga digunakan sebagai bagian dari ujian mata kuliah Web Development, yang menguji kemampuan dalam pengembangan aplikasi berbasis web dengan framework CodeIgniter 3.</span></p>
+              <button onclick="toggleText('dots1','more1','btn1')" class="readmore" id="btn1">Baca Selengkapnya</button>
+            </li>
+            <li class="porto-item">
+              <img src="Asset/img/portfolio/Porto-cuti.png" alt="Porto2" class="porto-img">
+              <h3 class="name">E-cuti</h3>
+              <p class="text">Website E-Cuti merupakan aplikasi berbasis web yang dikembangkan untuk mempermudah proses pengajuan <span class="dots" id="dots2">......</span><span class="more-text" id="more2" style="display: none;"> dan pengelolaan cuti bagi pegawai di lingkungan Suku Dinas Pendidikan Wilayah 2 Jakarta Pusat. Sistem ini dibangun menggunakan framework CodeIgniter 3 dan bahasa pemrograman PHP, serta menggunakan database MySQL untuk menyimpan data. Aplikasi ini dirancang untuk menggantikan proses pengajuan cuti secara manual, sehingga menjadi lebih cepat, efisien, dan terorganisir. Fitur utama meliputi pengajuan cuti oleh pegawai, verifikasi dan persetujuan cuti oleh atasan, serta rekapitulasi data cuti. Sistem juga dilengkapi dengan hak akses berbeda sesuai peran pengguna, seperti pegawai, atasan, dan admin. Pengembangan website E-Cuti ini merupakan bagian dari penyusunan skripsi sebagai syarat untuk menyelesaikan studi pada jenjang Strata 1 (S1), dengan fokus pada pemanfaatan teknologi web untuk mendukung sistem administrasi kepegawaian yang modern dan efektif.</span></p>
+              <button onclick="toggleText('dots2','more2','btn2')" class="readmore" id="btn2" >Baca Selengkapnya</button>
+            </li>
+            <li class="porto-item">
+              <img src="Asset/img/portfolio/Architect.png" alt="Porto2" class="porto-img">
+              <h3 class="name">Architect</h3>
+              <p class="text">Architect Connect adalah sebuah platform digital yang menghubungkan langsung antara arsitek profesional dan <span class="dots" id="dots3">......</span><span class="more-text" id="more3" style="display: none;">calon pelanggan. Melalui website ini, pengguna dapat mencari, melihat portofolio, dan berinteraksi dengan arsitek sesuai kebutuhan proyek mereka—baik untuk rumah tinggal, kantor, maupun bangunan komersial lainnya.
+
+Website ini dibangun menggunakan ReactJS untuk tampilan antarmuka yang interaktif dan responsif, serta NodeJS sebagai backend untuk menangani proses autentikasi, manajemen data, dan komunikasi antara pengguna dan arsitek secara real-time.
+
+Dengan fitur pencarian, chat langsung, ulasan proyek, dan sistem pemesanan, Architect Connect mempermudah proses kolaborasi dari awal hingga proyek selesai.</span></p>
+                <button onclick="toggleText('dots3','more3','btn3')" class="readmore" id="btn3" >Baca Selengkapnya</button>
+            </li>
+          </ul>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+     <section class="gallery-section" id="galerry">
+      <h2 class="section-title">Gallery</h2>
+      <div class="section-content">
+        <div class="slider-container swiper">
+          <div class="slider-wrapper">
+            <ul class="gallery-list swiper-wrapper">
+              <li class="gallery swiper-slide">
+                <img src="Asset/Img/gallery/gallery1.JPG" alt="Gallery1" class="user-image">
+                <h3 class="name">Seseorang</h3>
+                <i class="descrip">Seorang pria berdiri membelakangi kamera, menikmati pemandangan kota dari ketinggian pada siang hari. Siluet tubuhnya berpadu dengan latar kabut dan pepohonan, menciptakan suasana tenang dan reflektif.</i>
+              </li> 
+              <li class="gallery swiper-slide">
+                <img src="Asset/Img/gallery/gallery2.jpg" alt="Gallery2" class="user-image">
+                <h3 class="name">Citylight</h3>
+                <i class="descrip">Pemandangan kota dari atas bukit saat malam hari. Kelap-kelip lampu kota menyebar luas di kejauhan, menciptakan suasana magis yang kontras dengan siluet pepohonan gelap di latar depan.</i>
+              </li> 
+              <li class="gallery swiper-slide">
+                <img src="Asset/Img/gallery/gallery3.jpg" alt="Gallery3" class="user-image">
+                <h3 class="name">Swiming</h3>
+                <i class="descrip">Seorang pria berdiri di air jernih yang mengalir di antara bebatuan berlumut. Cahaya alami dan latar tebing hijau menciptakan nuansa alam liar yang damai dan menyegarkan.</i>
+              </li>
+              <li class="gallery swiper-slide">
+                <img src="Asset/Img/gallery/gallery4.jpg" alt="Gallery4" class="user-image">
+                <h3 class="name">Senja</h3>
+                <i class="descrip">Di ufuk senja yang merona kelabu, tegak menjulang sebatang cemara, penjaga sunyi di ambang bukit. Dari singgasananya yang hijau gelap, ia tatap hamparan permukiman di lembah jauh, lautan atap yang berbisik di bawah selimut kabut. Sebuah perpisahan antara rimba yang abadi dan kehidupan yang berdenyut di kaki langit.</i>
+              </li>
+              <li class="gallery swiper-slide">
+                <img src="Asset/Img/gallery/gallery5.jpg" alt="Gallery5" class="user-image">
+                <h3 class="name">Semut</h3>
+                <i class="descrip">Sebuah jendela kayu, usang dan retak, menjadi panggung bagi drama kecil. Barisan semut hitam, pengelana mungil di atas serat kayu yang kasar, menyaksikan bentangan alam yang samar. Di belakang garis pandang, di antara kabut yang membuai, siluet pohon tinggi itu kembali berdiri, seakan menjadi jangkar bagi pandangan yang hanyut dalam kehijauan yang tak bertepi.</i>
+              </li>
+              <li class="gallery swiper-slide">
+                <img src="Asset/Img/gallery/gallery6.jpg" alt="Gallery6" class="user-image">
+                <h3 class="name">Lake</h3>
+                <i class="descrip">Sebuah kolam rahasia, di mana waktu membeku menjadi kristal air. Biru kehijauan yang memikat, seolah cermin surga yang jatuh ke bumi. Bebatuan purba, berhiaskan lumut yang basah, menjadi bingkai bagi kejernihan abadi, menyanyikan kidung keheningan di bawah naungan dinding tebing yang berlumut.</i>
+              </li>
+            </ul>
+            
+            <div class="swiper-pagination"></div>
+            <div class="swiper-slide-button swiper-button-prev"></div>
+            <div class="swiper-slide-button swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+     </section>
+
+     <!-- Contact Section -->
+     <section class="contact-section" id="contact">
+      <h2 class="section-title">Contact Me</h2>
+      <div class="section-contact">
+        <ul class="contact-info-list">
+          <li class="contact-info">
+            <i class="fa-solid fa-house"></i>
+            <p>Jln Jatinegarakaum Rt.007/Rw.003 Jatinegarakaum Pulogadung Jakarta Timur</p>
+          </li>
+          <li class="contact-info">
+            <i class="fa-regular fa-envelope"></i>
+            <p><a href="mailto:m.arifwibowo76@gmail.com">m.arifwibowo76@gmail.com</a></p>
+          </li>
+          <li class="contact-info">
+            <i class="fa-solid fa-phone"></i>
+            <p>0895378942596</p>
+          </li>
+          <li class="contact-info">
+            <i class="fa-brands fa-square-linkedin"></i>
+            <p>www.linkedin.com/in/muharifwb</p>
+          </li>
+        </ul>
+
+        <form action="#" class="contact-form">
+          <input type="text" placeholder="Your Name" class="form-input" required>
+          <input type="email" placeholder="Your Email" class="form-input" required>
+          <textarea placeholder="Your Massage" class="form-input"></textarea>
+          <button class="submit-button">Submit</button>
+        </form>
+      </div>
+     </section>
+     <!-- Footer Section -->
+      <footer class="footer-section">
+        <div class="section-content">
+          <p class="copyright-text">@copyright 2025</p>
+          <div class="social-link-list">
+            <a href="https://www.linkedin.com/in/muharifwb" target="_blank" class="social-link"><i class="fa-brands fa-linkedin"></i></a>
+             <a href="https://www.tiktok.com/@muharifwb" class="social-link"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://www.Instagram.com/muh_arifwb" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+          <p class="policy-text">
+            <a href="#" class="policy-link">Privacy Policy</a>
+            <span class="seperator">*</span>
+            <a href="" class="policy-link">Muhamad Arif Wibowo</a>
+          </p>
+        </div>
+      </footer>
+    
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
