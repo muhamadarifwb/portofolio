@@ -313,7 +313,7 @@ header{
   padding: 50px 0 100px;
   background: var(--light-pink-color);
 }
-.contact-section .section-contact {
+.contact-section .section-content {
   display: flex;
   gap: 48px;
   align-items: flex-start;
@@ -497,7 +497,7 @@ body.show-mobile-menu .navbar .nav-menu{
   .porto-section .porto-list .porto-item .porto-image{
     max-width: 200px;
   }
-.contact-section .section-contact{
+.contact-section .section-content{
   align-item: center;
   flex-direction: column-reverse
 }
