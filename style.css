@@ -467,7 +467,7 @@ body.show-mobile-menu .navbar .nav-menu{
   flex-direction: column-reverse;
   justify-content: center;
 }
-.hero-section .hero-detail :is(.subtitle, .description), .about-section .about-detail{
+.hero-section .hero-detail :is(.subtitle, .description), .about-section .about-detail .contact-section .contact-form{
   max-width: 100%;
 }
 .hero-section .hero-detail .buttons{
@@ -496,8 +496,11 @@ body.show-mobile-menu .navbar .nav-menu{
   }
   .porto-section .porto-list .porto-item .porto-image{
     max-width: 200px;
-
   }
+.contact-section .section-contact{
+  align-item: center;
+  flex-direction: column-reverse
+}
 
 }
 @media screen and (max-width: 640px){
